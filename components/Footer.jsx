@@ -1,12 +1,14 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-100 py-8">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <a href="/index.html" className="text-3xl font-bold">
+            <Link href="/" className="text-3xl font-bold">
               <img src="/assets/lws-kitchen.png" alt="" className="h-10" />
-            </a>
+            </Link>
             <p className="text-gray-600 mt-2 text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
